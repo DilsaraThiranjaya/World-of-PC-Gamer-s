@@ -4,43 +4,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/assets/images/gamer-icon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/latest_pc_games.css">
   <title>Latest PC Games</title>
-  <style>
-    body {
-      background-image: url(/assets/images/Background_image-lpg.png);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-
-    td {
-      padding: 0px 100px 0px 0px;
-      vertical-align: top;
-    }
-  </style>
 </head>
 
 <body>
   <header>
-    <center>
-      <img src="/assets/images/World-of-pc-gamers.png" alt="World of PC Gamer's Logo" width="820" height="260" />
-    </center>
-    <hr style="border-style: solid; border-width: 5px; border-color: red; opacity: 75%;" />
-    <h2 style="
-            font-size: xx-large;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          ">
-      <mark style="color: red; border-radius: 50px;">
-        >>>>> Latest PC Games <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< </mark>
-    </h2>
-    <hr style="border-style: solid; border-width: 5px; border-color: red; opacity: 75%;" />
-    <nav>
-      <a href="/index.html"
-        style="font-size: 20px; color: rgb(218, 198, 19); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>
-          <<< Go Back</strong></a>
-    </nav>
-    <hr style="border-style: dashed; border-width: 1px; border-color: red; opacity: 75%;" />
-    <br>
+    <div class="header-box">
+      <img src="/assets/images/World-of-pc-gamers.png" alt="World of PC Gamer's Logo" width="250px" height="100px" />
+      <h1 id="header-text">
+        Latest PC Games
+      </h1>
+      <div class="nav-bar">
+        <nav>
+          <ul>
+            <li class="left-box" id="latest">
+              <a href="#">Latest</a>
+            </li>
+            <br />
+            <li class="middle-box">
+              <a href="/pages/page-upcoming_pc_games.html">Upcoming</a>
+            </li>
+            <br />
+            <li class="middle-box">
+              <a href="/pages/page-most-popular-pc-games.html">Most Popular</a>
+            </li>
+            <br />
+            <li class="middle-box">
+              <a href="/pages/page-pc-games-trailers.html">Game Trailers</a>
+            </li>
+            <br />
+            <li class="middle-box">
+              <a href="/pages/page-game-of-the-year.html">Games of the Year</a>
+            </li>
+            <br />
+            <li class="right-box">
+              <a href="/pages/page-contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
   <main>
     <section>
