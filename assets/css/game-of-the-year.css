@@ -1,5 +1,5 @@
 body {
-  background-image: url(/assets/images/Background_image-lpg.png);
+  background-image: url(/assets/images/Background_image-goy.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -81,13 +81,13 @@ td {
   box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.801);
 }
 
-#latest {
+#goty {
   background-color: rgb(218, 198, 19);
   box-shadow: none;
   cursor: default;
 }
 
-#latest a {
+#goty a {
   color: rgba(255, 0, 0, 0.801);
   cursor: default;
 }
