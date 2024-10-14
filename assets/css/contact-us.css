@@ -1,5 +1,5 @@
 body {
-  background-image: url(/assets/images/Background_image-cu.png);
+  background-image: url(/assets/images/Background_image-c.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -11,14 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  height: 250px;
+  height: 30vh;
   width: 100%;
   border-top: 3px;
   border-right: 0px;
   border-bottom: 10px;
   border-left: 0px;
   border-style: solid;
-  border-color: rgba(255, 0, 0, 0.801);
+  border-color: #ff0d00;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.384);
   backdrop-filter: blur(5px);
@@ -27,10 +27,14 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+#header-logo {
+  height: 100px;
+}
+
 #header-text {
   margin: 10px;
   font-size: 30px;
-  color: rgb(218, 198, 19);
+  color: white;
 }
 
 .nav-bar ul {
@@ -49,7 +53,7 @@ body {
   border-bottom: 4px;
   border-left: 0.5px;
   border-style: solid;
-  border-color: rgb(218, 198, 19);
+  border-color: #ff0d00;
   background-color: transparent;
   list-style: none;
   text-align: center;
@@ -72,17 +76,238 @@ body {
 }
 
 .nav-bar ul li:hover {
-  background-color: rgba(255, 0, 0, 0.801);
-  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.801);
+  background-color: #ff000052;
 }
 
 #contact-us {
-  background-color: rgb(218, 198, 19);
+  background-color: #ff0d00;
   box-shadow: none;
   cursor: default;
 }
 
 #contact-us a {
-  color: rgba(255, 0, 0, 0.801);
+  color: white;
   cursor: default;
 }
+
+/* ------------------------------- Body ------------------------------- */
+
+.article-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.384);
+  backdrop-filter: blur(5px);
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px
+}
+
+/* -------------- Contact Form --------------- */
+
+.container{
+  width: 85%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.384);
+  border: 3px solid #ff0d00;
+  border-radius: 10px;
+  padding: 20px 60px 30px 40px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+}
+.container .content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff0d00;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 2rem;
+  color: #ff0d00;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two,
+.content .left-side .details .text-three{
+  font-size: 1em;
+  color: #afafb6;
+}
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+
+.container .content .right-side p {
+  font-size: 1rem;
+  color: white;
+}
+.content .right-side .topic-text{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff0d00;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ff0d00;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0 15px;
+  resize: none;
+  color: white;
+}
+.right-side .message-box{
+  min-height: 150px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  height: 45px;
+  width: 150px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #ff0d00;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  border: 3px solid #ff0d00;
+  color: #ff0d00;
+  background: white;
+}
+
+/* ------------------------------------------- */
+
+/* ------------------------------- Footer ------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+footer {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.562);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 10px;
+  border-right: 0px;
+  border-bottom: 3px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: #ff0d00;
+  border-radius: 20px;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #ff0d00;
+}
+footer .content {
+  margin: auto;
+  padding: 30px 40px 20px 40px;
+}
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details {
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons {
+  display: flex;
+}
+.content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  border: 2px solid white;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.content .top .media-icons a:hover {
+  scale: 1.2;
+}
+
+footer .bottom-details .bottom_text {
+  display: flex;
+  justify-content: center;
+}
+.bottom-details .bottom_text span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* ----------------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth; /* This enables smooth scrolling for the whole page */
+}
+
+
+
