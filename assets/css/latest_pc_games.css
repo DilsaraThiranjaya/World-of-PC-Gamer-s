@@ -199,7 +199,9 @@ article table li {
 }
 
 .game-title {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ff0d00;
 }
 
 /* ------------------------------- Media Query ------------------------------- */
@@ -338,6 +340,8 @@ article table li {
   .game-title {
     font-size: 1.8rem;
     margin: 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
   }
 
   article p {
@@ -435,6 +439,8 @@ article table li {
   .game-title {
     font-size: 1.6rem;
     margin: 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
   }
 
   article p {
@@ -451,7 +457,7 @@ article table li {
   /* ===== Body ===== */
 
   .container {
-    height: calc(100vh - 162px);
+    height: 300px;
     border-top: 2px solid #ff0d00;
     border-bottom: 2px solid #ff0d00;
   }
@@ -526,7 +532,8 @@ article table li {
   }
 
   .article-container > ul {
-    padding-left: 30px;
+    padding: 0 10px;
+    list-style: none;
   }
 
   .article-container > ul > li {
@@ -534,17 +541,25 @@ article table li {
   }
 
   .game-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
   }
 
   article p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 8px 0;
   }
 
+  article dd {
+    margin-inline-start: 0;
+  }
+
   article table li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -552,7 +567,7 @@ article table li {
   /* ===== Body ===== */
 
   .container {
-    height: calc(100vh - 162px);
+    height: 350px;
     border-top: 2px solid #ff0d00;
     border-bottom: 2px solid #ff0d00;
   }
@@ -621,7 +636,8 @@ article table li {
   }
 
   .article-container > ul {
-    padding-left: 30px;
+    padding: 0 10px;
+    list-style: none;
   }
 
   .article-container > ul > li {
@@ -629,17 +645,25 @@ article table li {
   }
 
   .game-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 20px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
   }
 
   article p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 8px 0;
   }
 
+  article dd {
+    margin-inline-start: 0;
+  }
+
   article table li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -647,7 +671,7 @@ article table li {
   /* ===== Body ===== */
 
   .container {
-    height: calc(100vh - 142px);
+    height: 350px;
     border-top: 2px solid #ff0d00;
     border-bottom: 2px solid #ff0d00;
   }
@@ -716,7 +740,8 @@ article table li {
   }
 
   .article-container > ul {
-    padding-left: 30px;
+    padding: 0 10px;
+    list-style: none;
   }
 
   .article-container > ul > li {
@@ -724,17 +749,25 @@ article table li {
   }
 
   .game-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
   }
 
   article p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 8px 0;
   }
 
+  article dd {
+    margin-inline-start: 0;
+  }
+
   article table li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -742,7 +775,7 @@ article table li {
   /* ===== Body ===== */
 
   .container {
-    height: calc(100vh - 142px);
+    height: 350px;
     border-top: 2px solid #ff0d00;
     border-bottom: 2px solid #ff0d00;
   }
@@ -811,7 +844,8 @@ article table li {
   }
 
   .article-container > ul {
-    padding-left: 30px;
+    padding: 0 10px;
+    list-style: none;
   }
 
   .article-container > ul > li {
@@ -819,16 +853,24 @@ article table li {
   }
 
   .game-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
   }
 
   article p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 8px 0;
   }
 
+  article dd {
+    margin-inline-start: 0;
+  }
+
   article table li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
