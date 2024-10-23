@@ -55,6 +55,34 @@
           </ul>
         </nav>
       </div>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/pages/page-latest_pc_games.html">
+              <li>Latest</li>
+            </a>
+            <a href="#">
+              <li id="focused-item">Upcoming</li>
+            </a>
+            <a href="/pages/page-most-popular-pc-games.html">
+              <li>Most Popular</li>
+            </a>
+            <a href="/pages/page-pc-games-trailers.html">
+              <li>Game Trailers</li>
+            </a>
+            <a href="/pages/page-game-of-the-year.html">
+              <li>Games of the Year</li>
+            </a>
+            <a href="/pages/page-contact-us.html">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
   <main>
@@ -415,6 +443,28 @@
         }
       });
     });
+    
+      // -------------------------- Side Menu No Scroll --------------------------
+
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('#menuToggle input');
+
+        menuToggle.addEventListener('change', function () {
+          if (this.checked) {
+            document.body.classList.add('menu-open');
+          } else {
+            document.body.classList.remove('menu-open');
+          }
+        });
+
+        const menuLinks = document.querySelectorAll('#menu a');
+        menuLinks.forEach(link => {
+          link.addEventListener('click', function () {
+            menuToggle.checked = false;
+            document.body.classList.remove('menu-open');
+          });
+        });
+      });
   </script>
 </body>
 
