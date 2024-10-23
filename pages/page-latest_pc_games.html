@@ -54,6 +54,34 @@
           </ul>
         </nav>
       </div>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#">
+              <li id="focused-item">Latest</li>
+            </a>
+            <a href="/pages/page-upcoming_pc_games.html">
+              <li>Upcoming</li>
+            </a>
+            <a href="/pages/page-most-popular-pc-games.html">
+              <li>Most Popular</li>
+            </a>
+            <a href="/pages/page-pc-games-trailers.html">
+              <li>Game Trailers</li>
+            </a>
+            <a href="/pages/page-game-of-the-year.html">
+              <li>Games of the Year</li>
+            </a>
+            <a href="/pages/page-contact-us.html">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
   <main>
@@ -194,7 +222,7 @@
           <br>
           <li>
             <article>
-              <div  id="alan-wake-2">
+              <div id="alan-wake-2">
                 <dt>
                   <h3 class="game-title">Alan Wake 2</h3>
                 </dt>
@@ -533,14 +561,14 @@
           <a href="https://www.youtube.com/@Natural_Eye"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-    <div class="bottom-details">
-      <div class="bottom_text">
-        <span class="copyright_text">&copy; 2024 Dilsara IT Solutions, Inc. All Rights Reserved.</span>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">&copy; 2024 Dilsara IT Solutions, Inc. All Rights Reserved.</span>
+        </div>
       </div>
-    </div>
   </footer>
 
-</div>
+  </div>
   <a href="#" title="Back to Top">
     <div id="back-to-top"><i class="fa-solid fa-angle-up"></i></div>
   </a>
@@ -560,14 +588,36 @@
     })
 
     document.querySelectorAll('.see-more').forEach(button => {
-        button.addEventListener('click', function () {
-          const targetId = this.getAttribute('data-target');
-          const targetElement = document.getElementById(targetId);
-          if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth' });
-          }
+      button.addEventListener('click', function () {
+        const targetId = this.getAttribute('data-target');
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // -------------------------- Side Menu No Scroll --------------------------
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.querySelector('#menuToggle input');
+
+      menuToggle.addEventListener('change', function () {
+        if (this.checked) {
+          document.body.classList.add('menu-open');
+        } else {
+          document.body.classList.remove('menu-open');
+        }
+      });
+
+      const menuLinks = document.querySelectorAll('#menu a');
+      menuLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          menuToggle.checked = false;
+          document.body.classList.remove('menu-open');
         });
       });
+    });
   </script>
 </body>
 
