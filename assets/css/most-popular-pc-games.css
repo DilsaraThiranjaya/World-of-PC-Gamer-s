@@ -54,28 +54,328 @@ article table li {
 }
 
 .game-title {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ff0d00;
+  background-color: transparent;
+  opacity: 0.8;
+  background-size: 6px 6px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ff0d00 0,
+    #ff0d00 0.6000000000000001px,
+    transparent 0,
+    transparent 50%
+  );
+}
+
+.game-title a {
+  color: rgb(0, 56, 240);
 }
 
 /* ------------------------------- Media Query ------------------------------- */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
+  /* ===== Body ===== */
+
+  article > ol > li {
+    font-size: 1.8rem;
+  }
+
+  article > h3 {
+    font-size: 2.3rem;
+    margin: 20px;
+  }
+
+  .game-title {
+    font-size: 1.8rem;
+    margin: 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article p {
+    font-size: 1rem;
+    margin: 12px 0;
+  }
+
+  article table li {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* ===== Body ===== */
+
+  article > ol > li {
+    font-size: 1.6rem;
+  }
+
+  article > h3 {
+    font-size: 2rem;
+    margin: 20px;
+  }
+
+  .game-title {
+    font-size: 1.6rem;
+    margin: 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff0d00;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article > hr {
+    border: 4px solid #ff0d00;
+  }
+
+  article p {
+    font-size: 0.9rem;
+    margin: 11px 0;
+  }
+
+  article table li {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
+  /* ===== Body ===== */
+
+  article > ol {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  article > ol > li {
+    font-size: 1.2rem;
+  }
+
+  article > h3 {
+    font-size: 1.7rem;
+    margin: 15px;
+  }
+
+  .game-title {
+    font-size: 1.3rem;
+    margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article > hr {
+    border: 3px solid #ff0d00;
+  }
+
+  article p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+  }
+
+  article dd {
+    margin-inline-start: 0;
+  }
+
+  article table li {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
+  /* ===== Body ===== */
+
+  article > ol {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  article > ol > li {
+    font-size: 1.2rem;
+  }
+
+  article > h3 {
+    font-size: 1.6rem;
+    margin: 15px;
+  }
+
+  .game-title {
+    font-size: 1.3rem;
+    margin: 20px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article > hr {
+    border: 2.5px solid #ff0d00;
+  }
+
+  article p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+  }
+
+  article dd {
+    margin-inline-start: 0;
+  }
+
+  article table li {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
+  /* ===== Body ===== */
+
+  article > ol {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  article > ol > li {
+    font-size: 1.1rem;
+  }
+
+  article > h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+
+  .game-title {
+    font-size: 1.2rem;
+    margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article > hr {
+    border: 3px solid #ff0d00;
+  }
+
+  article p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+  }
+
+  article dd {
+    margin-inline-start: 0;
+  }
+
+  article table li {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 319px) {
+  /* ===== Body ===== */
+
+  article > ol {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  article > ol > li {
+    font-size: 1.1rem;
+  }
+
+  article > h3 {
+    font-size: 1.4rem;
+    margin: 10px;
+  }
+
+  .game-title {
+    font-size: 1.2rem;
+    margin: 15px 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
+    border-bottom: 3px solid #ff0d00;
+    border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
+  }
+
+  article > hr {
+    border: 3px solid #ff0d00;
+  }
+
+  article p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+  }
+
+  article dd {
+    margin-inline-start: 0;
+  }
+
+  article table li {
+    font-size: 0.8rem;
+  }
 }
