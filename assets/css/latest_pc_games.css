@@ -202,6 +202,16 @@ article table li {
   font-size: 2.3rem;
   padding-bottom: 5px;
   border-bottom: 3px solid #ff0d00;
+  background-color: transparent;
+  opacity: 0.8;
+  background-size: 6px 6px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ff0d00 0,
+    #ff0d00 0.6000000000000001px,
+    transparent 0,
+    transparent 50%
+  );
 }
 
 /* ------------------------------- Media Query ------------------------------- */
@@ -342,6 +352,16 @@ article table li {
     margin: 20px 0px;
     padding-bottom: 5px;
     border-bottom: 3px solid #ff0d00;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {
@@ -441,6 +461,16 @@ article table li {
     margin: 20px 0px;
     padding-bottom: 5px;
     border-bottom: 3px solid #ff0d00;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {
@@ -545,8 +575,19 @@ article table li {
     margin: 15px 0px;
     padding-left: 10px;
     padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
     border-bottom: 3px solid #ff0d00;
     border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {
@@ -649,8 +690,19 @@ article table li {
     margin: 20px 0px;
     padding-left: 10px;
     padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
     border-bottom: 3px solid #ff0d00;
     border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {
@@ -753,8 +805,19 @@ article table li {
     margin: 15px 0px;
     padding-left: 10px;
     padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
     border-bottom: 3px solid #ff0d00;
     border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {
@@ -857,8 +920,19 @@ article table li {
     margin: 15px 0px;
     padding-left: 10px;
     padding-bottom: 5px;
+    border-top: 3px solid #ff0d00;
     border-bottom: 3px solid #ff0d00;
     border-radius: 5px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #ff0d00 0,
+      #ff0d00 0.6000000000000001px,
+      transparent 0,
+      transparent 50%
+    );
   }
 
   article p {

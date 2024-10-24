@@ -220,7 +220,7 @@ td {
   border-right: 8px;
   border-style: solid;
   border-color: #ff0d00;
-  background: rgba(0, 0, 0, 0.932);
+  background: rgba(0, 0, 0, 0.89);
   list-style-type: none;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -587,7 +587,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 130px;
+    height: 150px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -599,12 +599,17 @@ footer .bottom-details .bottom_text {
   }
 
   #header-logo {
-    height: 50px;
+    height: 65px;
   }
 
   #header-text {
-    margin: 10px;
+    width: 100%;
+    margin: 12px;
+    padding: 5px 0;
     font-size: 1.2rem;
+    border: solid #ff0d00;
+    border-width: 1px 0;
+    text-align: center;
   }
 
   .nav-bar {
@@ -691,7 +696,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 130px;
+    height: 150px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -703,12 +708,17 @@ footer .bottom-details .bottom_text {
   }
 
   #header-logo {
-    height: 50px;
+    height: 65px;
   }
 
   #header-text {
-    margin: 10px;
+    width: 100%;
+    margin: 12px;
+    padding: 5px 0;
     font-size: 1.2rem;
+    border: solid #ff0d00;
+    border-width: 1px 0;
+    text-align: center;
   }
 
   .nav-bar {
@@ -812,7 +822,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 120px;
+    height: 140px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -824,12 +834,17 @@ footer .bottom-details .bottom_text {
   }
 
   #header-logo {
-    height: 45px;
+    height: 60px;
   }
 
   #header-text {
-    margin: 8px;
+    width: 100%;
+    margin: 10px;
+    padding: 5px 0;
     font-size: 1.1rem;
+    border: solid #ff0d00;
+    border-width: 1px 0;
+    text-align: center;
   }
 
   .nav-bar {
@@ -933,7 +948,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 110px;
+    height: 140px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -945,12 +960,17 @@ footer .bottom-details .bottom_text {
   }
 
   #header-logo {
-    height: 45px;
+    height: 60px;
   }
 
   #header-text {
-    margin: 8px;
+    width: 100%;
+    margin: 10px;
+    padding: 5px 0;
     font-size: 1.1rem;
+    border: solid #ff0d00;
+    border-width: 1px 0;
+    text-align: center;
   }
 
   .nav-bar {
