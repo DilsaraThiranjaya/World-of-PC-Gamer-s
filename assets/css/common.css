@@ -210,7 +210,7 @@ td {
   position: absolute;
   width: 45vw;
   height: 100vh;
-  margin: -43px 0 0 -50px;
+  margin: -47px 0 0 -50px;
   padding: 0px;
   padding-top: 80px;
   border-radius: 12px;
@@ -587,7 +587,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 150px;
+    height: 160px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -696,7 +696,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 150px;
+    height: 160px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -822,7 +822,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 140px;
+    height: 150px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
@@ -948,7 +948,7 @@ footer .bottom-details .bottom_text {
   /* ===== Header ===== */
 
   .header-box {
-    height: 140px;
+    height: 150px;
     border-radius: 12px;
     border-top: 2px;
     border-right: 0px;
